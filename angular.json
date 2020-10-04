@@ -22,11 +22,9 @@
           }
         },
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "@angular-builders/jest:run",
           "options": {
-            "main": "projects/ngneat/guard/src/test.ts",
-            "tsConfig": "projects/ngneat/guard/tsconfig.spec.json",
-            "karmaConfig": "projects/ngneat/guard/karma.conf.js"
+            "tsConfig": "projects/ngneat/guard/tsconfig.spec.json"
           }
         },
         "lint": {
