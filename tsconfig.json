@@ -6,5 +6,12 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/ngneat/guard/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/ngneat/guard/tsconfig.spec.json"
+    }
+  ]
 }
