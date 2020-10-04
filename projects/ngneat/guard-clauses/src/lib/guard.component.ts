@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-guard',
-  template: ` <p>guard works!</p> `,
+  selector: 'lib-guard-clauses',
+  template: ` <p>guard-clauses works!</p> `,
   styles: [],
 })
 export class GuardComponent implements OnInit {

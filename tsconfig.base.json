@@ -13,7 +13,7 @@
     "module": "es2020",
     "lib": ["es2018", "dom"],
     "paths": {
-      "@ngneat/guard": ["projects/ngneat/guard/src/public-api.ts"]
+      "@ngneat/guard-clauses": ["projects/ngneat/guard-clauses/src/public-api.ts"]
     }
   }
 }

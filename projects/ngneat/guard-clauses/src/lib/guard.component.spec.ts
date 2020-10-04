@@ -1,6 +1,6 @@
-import { Spectator, createComponentFactory } from '@ngneat/spectator';
+import { createComponentFactory, Spectator } from '@ngneat/spectator';
 
-import { GuardComponent } from './guard.component';
+import { GuardComponent } from './guard-clauses.component';
 
 describe('GuardComponent', () => {
   let spectator: Spectator<GuardComponent>;

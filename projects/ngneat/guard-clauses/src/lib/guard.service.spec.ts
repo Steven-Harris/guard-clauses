@@ -1,5 +1,6 @@
 import { createServiceFactory, SpectatorService } from '@ngneat/spectator';
-import { GuardService } from './guard.service';
+
+import { GuardService } from './guard-clauses.service';
 
 describe('GuardService', () => {
   let spectator: SpectatorService<GuardService>;

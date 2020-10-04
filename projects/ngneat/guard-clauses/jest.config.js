@@ -4,7 +4,7 @@ module.exports = {
   ...baseConfig,
   globals: {
     'ts-jest': {
-      tsConfig: '<rootDir>/projects/ngneat/guard/tsconfig.spec.json',
+      tsConfig: '<rootDir>/projects/ngneat/guard-clauses/tsconfig.spec.json',
     },
   },
 };

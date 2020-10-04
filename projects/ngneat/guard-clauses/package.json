@@ -1,5 +1,5 @@
 {
-  "name": "@ngneat/guard",
+  "name": "@ngneat/guard-clauses",
   "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^10.0.14",
@@ -11,18 +11,18 @@
   "keywords": [
     "angular",
     "angular 2",
-    "guard"
+    "guard-clauses"
   ],
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/ngneat/guard/issue"
+    "url": "https://github.com/ngneat/guard-clauses/issue"
   },
-  "homepage": "https://github.com/ngneat/guard#readme",
+  "homepage": "https://github.com/ngneat/guard-clauses#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngneat/guard"
+    "url": "https://github.com/ngneat/guard-clauses"
   }
 }

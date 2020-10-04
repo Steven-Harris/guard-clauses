@@ -33,11 +33,11 @@ Accusantium aliquid corporis cupiditate dolores eum exercitationem illo iure lab
 
 ### NPM
 
-`npm install @ngneat/guard --save-dev`
+`npm install @ngneat/guard-clauses --save-dev`
 
 ### Yarn
 
-`yarn add @ngneat/guard --dev`
+`yarn add @ngneat/guard-clauses --dev`
 
 ## Usage
 
@@ -62,7 +62,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://stevenharris.dev/"><img src="https://avatars0.githubusercontent.com/u/7720242?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Steven Harris</b></sub></a><br /><a href="https://github.com/@ngneat/guard/commits?author=Steven-Harris" title="Code">💻</a> <a href="#design-Steven-Harris" title="Design">🎨</a> <a href="https://github.com/@ngneat/guard/commits?author=Steven-Harris" title="Documentation">📖</a> <a href="#ideas-Steven-Harris" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/@ngneat/guard/commits?author=Steven-Harris" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://stevenharris.dev/"><img src="https://avatars0.githubusercontent.com/u/7720242?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Steven Harris</b></sub></a><br /><a href="https://github.com/@ngneat/guard-clauses/commits?author=Steven-Harris" title="Code">💻</a> <a href="#design-Steven-Harris" title="Design">🎨</a> <a href="https://github.com/@ngneat/guard-clauses/commits?author=Steven-Harris" title="Documentation">📖</a> <a href="#ideas-Steven-Harris" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/@ngneat/guard-clauses/commits?author=Steven-Harris" title="Tests">⚠️</a></td>
   </tr>
 </table>
 

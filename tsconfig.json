@@ -8,10 +8,10 @@
   "files": [],
   "references": [
     {
-      "path": "./projects/ngneat/guard/tsconfig.lib.json"
+      "path": "./projects/ngneat/guard-clauses/tsconfig.lib.json"
     },
     {
-      "path": "./projects/ngneat/guard/tsconfig.spec.json"
+      "path": "./projects/ngneat/guard-clauses/tsconfig.spec.json"
     }
   ]
 }

@@ -3,39 +3,42 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "@ngneat/guard": {
+    "@ngneat/guard-clauses": {
       "projectType": "library",
-      "root": "projects/ngneat/guard",
-      "sourceRoot": "projects/ngneat/guard/src",
+      "root": "projects/ngneat/guard-clauses",
+      "sourceRoot": "projects/ngneat/guard-clauses/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ngneat/guard/tsconfig.lib.json",
-            "project": "projects/ngneat/guard/ng-package.json"
+            "tsConfig": "projects/ngneat/guard-clauses/tsconfig.lib.json",
+            "project": "projects/ngneat/guard-clauses/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngneat/guard/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngneat/guard-clauses/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-builders/jest:run",
           "options": {
-            "tsConfig": "projects/ngneat/guard/tsconfig.spec.json"
+            "tsConfig": "projects/ngneat/guard-clauses/tsconfig.spec.json"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["projects/ngneat/guard/tsconfig.lib.json", "projects/ngneat/guard/tsconfig.spec.json"],
+            "tsConfig": [
+              "projects/ngneat/guard-clauses/tsconfig.lib.json",
+              "projects/ngneat/guard-clauses/tsconfig.spec.json"
+            ],
             "exclude": ["**/node_modules/**"]
           }
         }
       }
     }
   },
-  "defaultProject": "@ngneat/guard"
+  "defaultProject": "@ngneat/guard-clauses"
 }
