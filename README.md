@@ -60,7 +60,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<!-- markdownlint-enable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://stevenharris.dev/"><img src="https://avatars0.githubusercontent.com/u/7720242?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Steven Harris</b></sub></a><br /><a href="https://github.com/@ngneat/guard/commits?author=Steven-Harris" title="Code">💻</a> <a href="#design-Steven-Harris" title="Design">🎨</a> <a href="https://github.com/@ngneat/guard/commits?author=Steven-Harris" title="Documentation">📖</a> <a href="#ideas-Steven-Harris" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/@ngneat/guard/commits?author=Steven-Harris" title="Tests">⚠️</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->

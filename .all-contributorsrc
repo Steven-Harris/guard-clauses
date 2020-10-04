@@ -9,6 +9,20 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "angular",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "Steven-Harris",
+      "name": "Steven Harris",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7720242?v=4",
+      "profile": "https://stevenharris.dev/",
+      "contributions": [
+        "code",
+        "design",
+        "doc",
+        "ideas",
+        "test"
+      ]
+    }
+  ],
   "contributorsPerLine": 7
 }
