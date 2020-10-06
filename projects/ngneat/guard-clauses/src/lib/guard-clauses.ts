@@ -1,3 +1,5 @@
+import { Guid } from '../utils';
+
 export const EMPTY_GUID = '00000000-0000-0000-0000-000000000000';
 
 // tslint:disable-next-line: no-empty-interface
@@ -37,14 +39,14 @@ export class Guard implements GuardClause {
   }
 
   private emptyString(input: unknown, parameterName: string): unknown {
-    if (typeof input === 'string' && input.trim() === '') {
+    if (typeof input === 'string' && (input === '' || input.trim() === '')) {
       throw new Error(`${parameterName} can not be an empty string`);
     }
     return input;
   }
 
   private emptyGuid(input: unknown, parameterName: string): unknown {
-    if (typeof input === 'string' && input.trim() === EMPTY_GUID) {
+    if (Guid.isGuid(input) && Guid.parse(input).isEmpty()) {
       throw new Error(`${parameterName} can not be an empty guid`);
     }
     return input;

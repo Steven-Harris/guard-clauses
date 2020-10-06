@@ -8,7 +8,10 @@
     "inlineSources": true,
     "types": [],
     "lib": ["dom", "es2018"],
-    "experimentalDecorators": true
+
+    "paths": {
+      "@utils": ["src/utils/"]
+    }
   },
   "angularCompilerOptions": {
     "skipTemplateCodegen": true,
