@@ -7,7 +7,11 @@
     "declaration": true,
     "inlineSources": true,
     "types": [],
-    "lib": ["dom", "es2018"]
+    "lib": ["dom", "es2018"],
+
+    "paths": {
+      "@utils": ["src/utils/"]
+    }
   },
   "angularCompilerOptions": {
     "skipTemplateCodegen": true,
